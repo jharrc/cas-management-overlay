@@ -70,10 +70,10 @@ bootRun {
     classpath = sourceSets.main.runtimeClasspath
 }
 
-wrapper {
-    distributionType = Wrapper.DistributionType.BIN
-    gradleVersion = "${project.gradleVersion}"
-}
+// wrapper {
+//     distributionType = Wrapper.DistributionType.BIN
+//     gradleVersion = "${project.gradleVersion}"
+// }
 
 dependencies {
     // Other CAS Management dependencies/modules may be listed here...
